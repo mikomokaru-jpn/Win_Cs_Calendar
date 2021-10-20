@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itohisao\\Desktop\\NewProject\\temp\\SimpleCalendar\\SimpleCalendar.csproj",
+      "projectUniqueName": "C:\\Users\\itohisao\\Desktop\\GitProject\\Win_Cs_Calendar\\SimpleCalendar\\SimpleCalendar.csproj",
       "projectName": "SimpleCalendar",
-      "projectPath": "C:\\Users\\itohisao\\Desktop\\NewProject\\temp\\SimpleCalendar\\SimpleCalendar.csproj",
+      "projectPath": "C:\\Users\\itohisao\\Desktop\\GitProject\\Win_Cs_Calendar\\SimpleCalendar\\SimpleCalendar.csproj",
       "packagesPath": "C:\\Users\\itohisao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itohisao\\Desktop\\NewProject\\temp\\SimpleCalendar\\obj\\",
+      "outputPath": "C:\\Users\\itohisao\\Desktop\\GitProject\\Win_Cs_Calendar\\SimpleCalendar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

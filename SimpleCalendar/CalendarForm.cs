@@ -64,7 +64,6 @@ namespace SimpleCalendar
                 Size = new Size(40, 30),
                 Text = "←",
                 Font = new Font(SystemFonts.DefaultFont.FontFamily, 12),
-                
             };
             header.Controls.Add(preButton);
             preButton.MouseUp += new MouseEventHandler(preButton_MouseUp);
@@ -121,9 +120,6 @@ namespace SimpleCalendar
             //カレンダー日付の作成
             calendar = new Calendar();
         }
-
-    
-
         //カレンダー日付の設定
         private void calendarDateSetting()
         {
@@ -198,13 +194,11 @@ namespace SimpleCalendar
         //翌月へボタン
         void nextButton_MouseUp(object sender, MouseEventArgs e)
         {
-            Debug.Print("MouseUp");
             calendar.createCalendar(1);
             this.calendarDateSetting();
             selectedIndex = 0;
             itemList[selectedIndex].Focus();
         }
-
         //矢印キー
         void item_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
@@ -214,11 +208,15 @@ namespace SimpleCalendar
             {   //前月
                 calendar.createCalendar(-1);
                 this.calendarDateSetting();
+                selectedIndex = days - 1;
+                itemList[selectedIndex].Focus();
             }
             else if (e.KeyCode == Keys.Right && e.Shift)
             {   //翌月
                 calendar.createCalendar(1);
                 this.calendarDateSetting();
+                selectedIndex = 0;
+                itemList[selectedIndex].Focus();
             }
             else if (e.KeyCode == Keys.Right)
             {
