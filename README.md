@@ -1,5 +1,3 @@
-## Win_Cs_Calendar
-
 ## Simple Calendar
 
 Monthly Calendar for Windows created with C#
